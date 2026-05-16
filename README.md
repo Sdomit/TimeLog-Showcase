@@ -1,6 +1,6 @@
 <div align="center">
 
-# TimeLog
+# ⏱️ TimeLog
 
 **VFX and animation studio time-tracking with ShotGrid integration — desktop and web, shared core.**
 
@@ -8,34 +8,34 @@
 [![Stack: Python / PySide6 / FastAPI / React](https://img.shields.io/badge/Stack-Python%20%2F%20PySide6%20%2F%20FastAPI%20%2F%20React-3776AB?style=flat-square)]()
 [![Showcase](https://img.shields.io/badge/Source-Private%20Showcase-lightgrey?style=flat-square)]()
 
-> Private source — this repository is a project showcase.
+> 🔒 Private source — this repository is a project showcase.
 
 </div>
 
 ---
 
-## What It Does
+## 📖 What It Does
 
 TimeLog is a production time-tracking application for VFX and animation studios. Team members log hours directly against their assigned ShotGrid projects and tasks — from either a native Windows desktop app or a locally-served web interface, both powered by the same core logic.
 
 ---
 
-## Features
+## ✨ Features
 
-- **Desktop app** — standalone Windows `.exe` built with PySide6 (Qt6)
-- **Web interface** — FastAPI backend + React frontend, served locally
-- **ShotGrid integration** — fetch assigned projects, tasks, and shots; push time entries back to ShotGrid
-- **Timer** — start/stop with automatic database writes
-- **Manual logging** — log time for any date with project, task, description, and duration
-- **Backfill** — fill in missing workdays automatically
-- **Description suggestions** — auto-suggest previously used descriptions per project/task pair
-- **End-of-day reminders** — configurable with snooze and multiple notification channels
-- **Multi-user support** — manage a list of people and switch active user
-- **Offline mode** — full functionality without a ShotGrid connection; sync when available
+- 🖥️ **Desktop app** — standalone Windows `.exe` built with PySide6 (Qt6)
+- 🌐 **Web interface** — FastAPI backend + React frontend, served locally
+- 🎯 **ShotGrid integration** — fetch assigned projects, tasks, and shots; push time entries back to ShotGrid
+- ⏱️ **Timer** — start/stop with automatic database writes
+- 📝 **Manual logging** — log time for any date with project, task, description, and duration
+- 📅 **Backfill** — fill in missing workdays automatically
+- 💡 **Description suggestions** — auto-suggest previously used descriptions per project/task pair
+- 🔔 **End-of-day reminders** — configurable with snooze and multiple notification channels
+- 👥 **Multi-user support** — manage a list of people and switch active user
+- 📵 **Offline mode** — full functionality without a ShotGrid connection; sync when available
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 | Layer | Technology |
 |:---|:---|
@@ -49,7 +49,7 @@ TimeLog is a production time-tracking application for VFX and animation studios.
 
 ---
 
-## Architecture
+## 🏗️ Architecture
 
 ```
 timelog_core/                  shared business logic (desktop + API)
@@ -73,7 +73,7 @@ Core rule: business logic lives once in `timelog_core` so any fix applies to bot
 
 ---
 
-## Configuration
+## ⚙️ Configuration
 
 Credentials can be supplied via environment variables (which take precedence over database settings):
 
@@ -87,7 +87,7 @@ Credentials can be supplied via environment variables (which take precedence ove
 
 ---
 
-## Key API Endpoints
+## 🔌 Key API Endpoints
 
 | Method | Path | Description |
 |:---|:---|:---|
@@ -101,6 +101,6 @@ Credentials can be supplied via environment variables (which take precedence ove
 
 ---
 
-## Status
+## 📊 Status
 
-Active development. Private source — this repository is a project showcase.
+Active development. 🔒 Private source — this repository is a project showcase.
